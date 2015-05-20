@@ -63,7 +63,7 @@ TEMPLATE_LOADERS = [
 ] + list(TEMPLATE_LOADERS)
 
 # Language settings
-PROD_LANGUAGES = ('cs', 'de', 'en-US', 'es', 'fr', 'pl', 'sl', 'sq', 'zh-TW', 'sk')
+PROD_LANGUAGES = ('cs', 'de', 'en-US', 'es', 'fr', 'nl', 'pl', 'pt-BR', 'sk', 'sl', 'sq', 'sr', 'zh-TW')
 
 # UPSTREAM: Change lazy_langs to search for locales in a case-insensitive
 # manner.
@@ -429,4 +429,4 @@ FACEBOOK_APP_URL = lazy(facebook_app_url_lazy, str)()
 GA_ACCOUNT_CODE = ''
 
 # List Of Locales Where Firefox Friends Messaging Is Translated & Enabled
-FRIENDS_MSG_LOCALES = ['en-US']
+FRIENDS_MSG_LOCALES = ['cs', 'de', 'en-US', 'fr', 'nl', 'pt-BR', 'sl', 'sr']
